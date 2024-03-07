@@ -1,0 +1,24 @@
+{
+  "name": "magerocket/module-core-m23",
+  "version": "1.0.0",
+  "description": "MageRocket Core",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "guzzlehttp/guzzle": "^6.0 || ^7.0"
+  },
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageRocket\\Core\\": ""
+    }
+  },
+  "extra": {
+    "user_guide": "https://docs.magerocket.com/guides/core"
+  }
+}
